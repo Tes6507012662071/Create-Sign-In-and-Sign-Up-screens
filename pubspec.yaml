@@ -39,6 +39,9 @@ dependencies:
   shared_preferences: ^2.3.2
   introduction_screen: ^3.1.14
   smooth_page_indicator: ^1.2.0+3
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +66,13 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+  - assets/images/google_icon.png
+  - assets/images/ios_icon.png
+
+  # The following line ensures that the app uses Google Fonts with the
+  # Roboto font family.
+  # fonts:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
